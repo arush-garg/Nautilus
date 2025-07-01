@@ -23,7 +23,7 @@ Exit using control-D
 
 5. Deleting pods
 
-`kubectl delete <pod_name>` or `kubectl delete -f <filename>`
+`kubectl delete pod <pod_name>` or `kubectl delete -f <filename>`
 Verify the pod has been deleted by running `kubectl get pods`
 
 ## Other Information
