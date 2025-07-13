@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/go"
-
-    //Specifications must be set in Devpod
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+  "remoteUser": "vscode"
 }
